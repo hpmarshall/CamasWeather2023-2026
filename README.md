@@ -8,6 +8,7 @@ SNODAR/RAW/ : raw datafiles downloaded from sensors
 SNODAR/CSV/ : cleaned data in CSV format for WY2023-2026    
 miniMET/ : raw data files from the mini meteorological stations (temp, RH, pressure, wind)   
 miniMET/RAW/ : raw datafiles downloaded from miniMET Onset U30 loggers   
+miniMET/CSV/ : cleaned data in CSV format for WY2023-2026   
 LIDAR/ : files associated with airborne lidar snow depth survey, February 8, 2025   
 iSNOBAL/ : files associated with snow energy and mass balance modeling, WY2020-2025   
 IN_SITU/ : snowpits, SWE cores, interval boards, field notes   
