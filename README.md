@@ -7,6 +7,7 @@ SNODAR/ : data files from the laser-based snow depth sensors
 SNODAR/RAW/ : raw datafiles downloaded from sensors
 SNODAR/CSV/ : cleaned data in CSV format for WY2023-2026 
 miniMET/ : raw data files from the mini meteorological stations (temp, RH, pressure, wind)
+miniMET/RAW/ : raw datafiles downloaded from miniMET Onset U30 loggers
 LIDAR/ : files associated with airborne lidar snow depth survey, February 8, 2025
 iSNOBAL/ : files associated with snow energy and mass balance modeling, WY2020-2025
 IN_SITU/ : snowpits, SWE cores, interval boards, field notes
@@ -18,3 +19,9 @@ readSNOdarStation.m : reads all SNODAR data files for an individual station
 plotCamasWeather.m : makes summary plots of WY2023-2026
 download_snotel_camas_creek : downloads entire historical record (WY1993-2026) of Camas Creek Divide SNOTEL using NRCS API 
 CamasSNOTEL.m : Makes plot showing historical context of WY2023-2026
+readOnset.m : reads an individual miniMET data file
+readOnsetStation.m: reads all data from a single station
+
+Camas2023-26miniMet.mat : matlab data file with structure arrays containing the database of all observations (miniMet,SNODAR,SNOTEL)
+      NOTE: for non-MATLAB users, CSV files for miniMet and SNODAR data are in the CSV subdirectories.
+

@@ -1,5 +1,7 @@
 % Camas Creek Divide historical analysis
-load SNOTEL/snotel_camas_creek_WY1992_2026.mat
+% download_snotel_camas_creek % script to load SNOTEL data, or load mat
+% file below
+load SNOTEL/snotel_camas_creek_WY1992_2026.mat 
 %%
 %% now find previous peak swe for each year
 WY=1993:2023;
