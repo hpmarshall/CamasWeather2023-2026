@@ -24,5 +24,7 @@ readOnset.m : reads an individual miniMET data file
 readOnsetStation.m: reads all data from a single station   
 
 Camas2023-26miniMet.mat : matlab data file with structure arrays containing the database of all observations (miniMet,SNODAR,SNOTEL)   
-      NOTE: for non-MATLAB users, CSV files for miniMet and SNODAR data are in the CSV subdirectories.   
+      NOTE: for non-MATLAB users, CSV files for miniMet and SNODAR data are in the CSV subdirectories.     
 
+CryoToolbox4IDWR_Y3.5report_February2026.pdf : annual report at the end of the 3rd year of performance (1st year on new contract)   
+CryoToolbox4IDWR_FinalReport_May2026.pdf : final report at conclusion of 4 season project     
